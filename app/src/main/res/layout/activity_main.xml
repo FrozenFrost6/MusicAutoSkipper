@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Now Playing Title -->
+    <TextView
+        android:id="@+id/textNowPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now Playing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Song Name -->
+    <TextView
+        android:id="@+id/textSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textSize="18sp" />
+
+    <!-- Song Artist -->
+    <TextView
+        android:id="@+id/textSongArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Artist"
+        android:textSize="16sp" />
+
+    <!-- Song Duration -->
+    <TextView
+        android:id="@+id/textSongDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Duration"
+        android:textSize="16sp" />
+
+    <!-- Skip Time Label -->
+    <TextView
+        android:id="@+id/textSkipTimePercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip Time: 60%"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <!-- SeekBar for Skip Percentage -->
+    <SeekBar
+        android:id="@+id/seekBarSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="60"
+        android:thumb="@drawable/custom_thumb"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Skip Time (Text) -->
+    <TextView
+        android:id="@+id/textSkipTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip time"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
