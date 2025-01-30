@@ -21,10 +21,11 @@ Music Auto Skipper is an Android app that automatically skips songs on YouTube M
 - Make sure to grant the required permissions in settings.
 
 ## Usage
-1. Open the app and grant notification listener permission if prompted.
-2. In the battery settings of the app, found in app info, allow the app to be run on the background.
-3. Use the seek bar to adjust the **skip percentage** (e.g., 50% playback before skipping).
-4. The app will automatically detect and skip songs based on your preference.
+1. Download the app-debuk.apk file and install.
+2. Open the app and grant notification listener permission if prompted.
+3. In the battery settings of the app, found in app info, allow the app to be run on the background.
+4. Use the seek bar to adjust the **skip percentage** (e.g., 50% playback before skipping).
+5. The app will automatically detect and skip songs based on your preference.
    
 
 ## Future Enhancements
