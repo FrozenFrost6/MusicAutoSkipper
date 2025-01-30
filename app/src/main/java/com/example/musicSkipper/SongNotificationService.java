@@ -104,8 +104,8 @@ public class SongNotificationService extends NotificationListenerService {
             Log.d(TAG, "terminated = true");
             return;
         }
-
-        if (sbn.getPackageName().equals("com.google.android.apps.youtube.music")) {
+        Log.d(TAG, "onNotificationPosted: "+ sbn.getPackageName());
+        if (sbn.getPackageName().equals("com.google.android.apps.youtube.music") || sbn.getPackageName().equals("com.spotify.music")) {
             Notification notification = sbn.getNotification();
             MediaSession.Token mediaSessionToken = (MediaSession.Token) notification.extras.get("android.mediaSession");
 
